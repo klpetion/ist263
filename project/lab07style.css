@@ -1,0 +1,9 @@
+.skills {color: #ffffff}
+.contact {color: #ffffff}
+.bio {color: #ffffff}
+body{color: #000000}
+nav {background-color: #219F94; padding:20px; font-size: 20px;}
+nav a:hover {background-color: #2666CF}
+@media only screen and (max-width: 600px) 
+{nav a {background-color:#219F94 ; max-width: 100px; display: block; padding:10px;}
+span {display:none;}}
