@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fuck this fr </title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        h1{
+            position:absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 5px;
+            margin:0;
+            padding: 0;
+           color: transparent;
+
+        }
+        h1:before{
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #000;
+            overflow: hidden;
+            border-right: 1px solid#000;
+            animation: type 10s linear infinite;
+            white-space: nowrap;
+        }
+        @keyframes type {
+            0% {width: 0;
+            }
+            50% {width: 100%;
+            } 
+            100% {width: 0;
+
+            }
+        }
+
+        nav {background-color: #d3b7f7; padding: 20px; border-radius:1em; text-align: center; font-size: 30px;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="homepage.html" class="homepage">Homepage</a> |
+    
+        <a href="international.html" class="international">International</a> |
+    
+       
+        <a href="domestic.html" class="domestic">Domestic</a> 
+       </nav>
+
+
+
+
+
+    <h1>International Locations </h1>
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+ <marquee behavior="normal" direction="right" scrollamount="20"> 
+        <img src="../images/southbeach-main-2.png" width=600px height=500px class="southbeach-main" alt="image_of_south_beach_miami"> 
+        <img src="../images/capecod-main3.png" width=600px height=500px class="southbeach-main" alt="image_of_capecod">, 
+        <img src="../images/puntacanamain3.png" width=600px height=500px class="southbeach-main" alt="image_of_puntacana">
+        <img src="../images/cabomainn.png" width=600px height=500px class="southbeach-main" alt="image_of_cabo">
+        <img src="../images/villacasa.jpeg" width=600px height=500px class="southbeach-main" alt="image_palaceofversache">
+        <img src="../images/dominicanreplublic.jpeg" width=600px height=500px class="southbeach-main" alt="image_of_dominicanrepublic">
+        <img src="../images/sanlucas.jpeg" width=600px height=500px class="southbeach-main" alt="image_of_cabo-san-lucas-town">
+
+      
+    </marquee> 
+</body>
+</html>
